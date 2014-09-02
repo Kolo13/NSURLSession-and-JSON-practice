@@ -34,9 +34,6 @@ class ViewController: UIViewController {
       //Retrieving User's Profile Pic URL
       var gitUserPicURL: String = gitUserDict["avatar_url"] as String
       
-      // downloadURL.
-     println(gitUserDict)
-      
     })
     // Session Tasks all start in suspended state so you have to tell the process when to continue ( referenced from www.raywenderlich.com/67081/cookbook-using-nsurlsession)
     gitTask.resume()
